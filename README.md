@@ -296,9 +296,9 @@ X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;
 
 ```mermaid
 graph TD;
-  st([Login])-->op[Login operation];
+  st(Login)-->op[Login operation];
   op-->cond{Successful Yes or No?};
-  cond-->|Yes| end([To admin]);
+  cond-->|Yes| e(To admin);
   cond-->|No| op;
 
 ```
