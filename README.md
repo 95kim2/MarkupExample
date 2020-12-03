@@ -288,7 +288,7 @@ X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;
     - [ ] :smiley: this is  :fa-star: :fa-gear: an incomplete item [test link](#);
 
 # Chrome: [Github+Mermaid Chrome Web Store](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe)
-   
+(위 URL을 통해 확장앱 설치)   
 ### [참고사이트](https://mermaid-js.github.io/mermaid/#/)
 ---------------------
 
