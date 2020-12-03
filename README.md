@@ -294,17 +294,36 @@ X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;
 
 ### FlowChart
 
+~~~
 ```mermaid
 graph TD;
   st(Login)-->op[Login operation];
   op-->cond{Successful Yes or No?};
   cond-->|Yes| e(To admin);
   cond-->|No| op;
+```
+~~~
 
+```mermaid
+graph TD;
+  st(Login)-->op[Login operation];
+  op-->cond{Successful Yes or No?};
+  cond-->|Yes| e(To admin);
+  cond-->|No| op;
 ```
 
+
 ### Sequence Diagram
-                    
+~~~
+```mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    activate John
+    John-->>Alice: Great!
+    deactivate John
+```
+~~~
+
 ```mermaid
 sequenceDiagram
     Alice->>John: Hello John, how are you?
